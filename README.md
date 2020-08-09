@@ -5,8 +5,10 @@
 
 ```
 pip install virtualenv
-virtualenv env
-env\Scripts\activate
+mkvirtualenv "your virtual enviornment name"
+
+activate the virtual enviornment by:
+workon "your virtual enviornment name"
 
 pip install flask
 pip install Flask-API
@@ -15,14 +17,9 @@ pip install Flask-API
 python polling_api.py
 ```
 
-Now head over to http://127.0.0.1:5000/
+## open on localhost 
 
-## Polling system API
-
-## Authors
-
-* Mikhail Tereshkow, [pirate-505](https://github.com/pirate-505)
-* Mykola Yurchenko, [colyk](https://github.com/colyk)
+Now head over to http://127.0.0.1:5500/templates
 
 ## License
 
